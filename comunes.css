@@ -855,3 +855,7 @@ select {
     align-items: center;
     justify-content: center;
 }
+.tbos-ti-lact:before {
+    background-position: 0 10%!important;
+    opacity: .5!important;
+}
