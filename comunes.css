@@ -375,24 +375,22 @@ div#cp-main .panel dl dt {
     color: #fff;
     background-position: 100% 0;
 }
-#tabs li.activetab a span {color: #fff;}
-#tabs li.activetab a {background: var(--accent);}
+#tabs .activetab a span {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-bottom:0;
+}
+#tabs li.activetab a {
+    margin-bottom: 3px;
+}
 div#tabs a {
-    border: var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(var(--background-2));
     text-transform: uppercase;
-    border-radius: 3px;
-    width: 100%;
-    box-sizing: border-box;
     line-height: 16px;
-    height: 100%;
-    margin: 0;
-    padding: 0px 8px;
     float: none;
     text-align: center;
+    color: var(--color);
+    font-size: var(--fntsize-mini);
 }
 #tabs a span {
     float: none;
@@ -404,20 +402,29 @@ div#tabs a {
     letter-spacing: .5px;
     display:unset;
 }
-#tabs li {height: 30px;}
+#tabs li {
+    background: var(--accent);
+    color: #fff;
+    height: 25px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
 #tabs .activetab a span {padding-bottom: 0;}
 div#tabs > ul {
     display: flex;
     gap: 5px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 div#tabs {
-    margin: 0px auto 3px;
-    border: var(--border);
+    margin: 0px auto 5px;
+    border: var(--border-opacity);
     padding: 5px;
     background: rgb(var(--background-1));
-    border-radius: 5px;
 }
 #cp-main .panel p {
     font-size: .75rem;
