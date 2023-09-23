@@ -394,13 +394,10 @@ div#tabs a {
 }
 #tabs a span {
     float: none;
-    background: none;
-    padding: 0;
-    color: var(--color-1);
-    font-size: .72rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: .5px;
-    display:unset;
+    display: unset;
+    padding: 0;
 }
 #tabs li {
     background: var(--accent);
