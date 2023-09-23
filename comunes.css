@@ -17,6 +17,7 @@ div#z68bf362d {
     color: var(--color);
     border: var(--border-opacity);   
 }
+
 blockquote cite {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -301,6 +302,8 @@ form#quick_reply {padding-bottom: 30px;}
     padding: 5px;
     background: rgb(var(--background-1));
 }
+fieldset dd{margin-bottom:0;padding-bottom:0;}
+
 div#cp-main {
     float: unset;
     width: 100%;
@@ -341,13 +344,13 @@ div#cp-main .panel dl dt {
     font-size: var(--fntsize-mini);
     text-align: center;
     background: var(--accent);
-    height: 25px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     width: fit-content;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 .inputbox {
     background-color: rgb(var(--background-1));
