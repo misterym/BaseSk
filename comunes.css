@@ -305,60 +305,58 @@ div#cp-main {
     float: unset;
     width: 100%;
     margin: 0;
-    background: rgb(var(--background-1));
     padding-top: 1px;
     overflow: hidden;
 }
 div#cp-main h1 {
     margin-left: 0;
-    background: var(--accent);
+    background: rgb(var(--background-1));
     padding: 0 20px;
-    border-bottom: var(--border);
-    height: 40px;
-    color: #fff;
+    border: var(--border-opacity);
+    height: 30px;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: .5px;
 }
 div#cp-main .panel {
     padding: 15px 25px;
     margin: 5px 0 5px;
-    border: var(--border);
-    border-radius: 3px;
-    background: rgb(var(--background-2));
-    font-size: .75rem;
-    font-weight: 400;
+    border: var(--border-opacity);
+    background: rgb(var(--background-1));
 }
 div#cp-main .panel dl {
-    padding: 10px;
     margin-bottom: 5px;
-    line-height: 16px
-    font-size: .7rem;
-    background: rgb(var(--background-1));
-    border-radius:5px;
+    border: 1px solid var(--background-stema);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px 8px 8px;
 }
 fieldset dl:hover dt label {
-    color: var(--accent);
-}
-dt label {
-    font-weight: 500;
-    text-align: left;
-    font-size: .75rem;
-    color: var(--color-text);
+    color: #fff;
 }
 div#cp-main .panel dl dt {
-    color: var(--color-text)!important;
-    font-weight: 500;
-    font-size: .75rem;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: var(--fntsize-mini);
+    text-align: center;
+    background: var(--accent);
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: fit-content;
+    padding: 0 20px;
 }
 .inputbox {
     background-color: rgb(var(--background-1));
-    border: var(--border);
-    color: var(--color-text);
+    border: 1px solid var(--accent);
+    color: var(--color);
     padding: 6px 10px;
     cursor: text;
-    border-radius: 5px;
-    font-size: .75rem;
+    border-radius: 4px;
     letter-spacing: .5px;
-    margin: 1px;
 }
 #cp-main .panel.sig {
     background-color: rgb(var(--background-2));
