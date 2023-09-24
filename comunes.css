@@ -477,11 +477,10 @@ fieldset {
     align-items: center;
     justify-content: center;
     text-indent: 0;
-    color: var(--accent);
-    border: var(--border);
+    color: #fff;
     margin: 0px 2px;
-    border: var(--border)!important;
-  background:rgb(var(--background-1))!important;
+    border: var(--border-opacity)!important;
+  background:var(--accent)!important;
   padding:5px;
 }
 .sceditor-container {background-color: rgb(var(--background-1))!important;}
