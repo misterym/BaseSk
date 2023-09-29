@@ -453,14 +453,14 @@ a#fa_notifications {
     height: 100%;
 }
 .sceditor-container iframe, .sceditor-container textarea {
-    background: rgb(var(--background-2))!important;
-    border: 5px solid rgb(var(--background-2))!important;
+    background-color: rgb(var(--background-1))!important;
+    border: 5px solid rgb(var(--background-1))!important;
     margin: 0!important;
 }
 textarea{
-    font-size: .75rem!important;
+    font-size: var(--fnt-nrm)!important;
     line-height: 18px!important;
-    color: var(--color-text)!important;
+    color: var(--color)!important;
 }
 fieldset {
     font-size: .75rem;
