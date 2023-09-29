@@ -453,9 +453,13 @@ a#fa_notifications {
     height: 100%;
 }
 .sceditor-container iframe, .sceditor-container textarea {
-    background-color: rgb(var(--background-1))!important;
+    background: rgb(var(--background-1))!important;
     border: 5px solid rgb(var(--background-1))!important;
     margin: 0!important;
+    outline: 1px solid rgb(var(--background-1))!important;
+}
+body {
+    background-color: rgb(var(--background-1));
 }
 textarea{
     font-size: var(--fnt-nrm)!important;
