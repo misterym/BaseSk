@@ -452,6 +452,12 @@ a#fa_notifications {
     z-index: 1;
     height: 100%;
 }
+.sceditor-toolbar {
+    padding: 18px!important;
+    background: rgb(var(--background-1))!important;
+    border: 0!important;
+    border-bottom: 1px solid var(--accent)!important;
+}
 .sceditor-container iframe, .sceditor-container textarea {
     background: rgb(var(--background-1))!important;
     border: 5px solid rgb(var(--background-1))!important;
@@ -460,6 +466,10 @@ a#fa_notifications {
 }
 body {
     background-color: rgb(var(--background-1));
+}
+.sceditor-container {
+    border: 1px solid var(--accent);
+    padding: 1px;
 }
 textarea{
     font-size: var(--fnt-nrm)!important;
