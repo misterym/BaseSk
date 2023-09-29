@@ -468,8 +468,8 @@ body {
     background-color: rgb(var(--background-1));
 }
 .sceditor-container {
-    border: 1px solid var(--accent);
-    padding: 1px;
+    border: 1px solid var(--accent)!important;
+    padding: 1px!important;
 }
 textarea{
     font-size: var(--fnt-nrm)!important;
@@ -498,11 +498,6 @@ fieldset {
   padding:5px;
 }
 .sceditor-container {background-color: rgb(var(--background-1))!important;}
-.sceditor-toolbar {
-    padding: 20px!important;
-    background: rgb(var(--background-2))!important;
-    border-bottom: var(--border)!important;
-}
 .sceditor-group {
     background: transparent!important;
     border-bottom: 0px!important;
