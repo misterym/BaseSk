@@ -460,7 +460,7 @@ body[dir="ltr"] {
     padding: 18px!important;
     background: rgb(var(--background-1))!important;
     border: 0!important;
-    border-bottom: 2px solid var(--accent)!important;
+    border-bottom: 1px solid var(--accent)!important;
 }
 .sceditor-container iframe, .sceditor-container textarea {
     background: rgb(var(--background-1))!important;
