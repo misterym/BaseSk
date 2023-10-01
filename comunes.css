@@ -508,7 +508,7 @@ fieldset {
 }
 .sceditor-container.ltr.sourceMode {
     background: rgb(var(--background-1));
-    border: var(--border)!important;
+    border: 1px solid var(--accent);
 }
 .external-module .external-more a, a.button1, a.button2, button.button2, input.button1, input.button2 {
     background-color: rgb(var(--background-1));
