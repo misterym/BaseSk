@@ -113,7 +113,7 @@ blockquote:before {
 ::-webkit-scrollbar-thumb {
     background: var(--accent);
     border-radius: 3px;
-    border: 2px solid var(--bckg));
+    border: 2px solid var(--bckg);
 }
 a, a:hover{
   color:var(--accent);
