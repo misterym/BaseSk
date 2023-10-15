@@ -104,7 +104,7 @@ blockquote:before {
     opacity: .4;
 }
 ::-webkit-scrollbar {
-    background: #000;
+    background: var(--bckg);
     border-left: var(--border-opacity);
     height: 5px!important;
     width: 10px!important;
@@ -112,8 +112,8 @@ blockquote:before {
 
 ::-webkit-scrollbar-thumb {
     background: var(--accent);
-    border-radius: 5px;
-    border: 2px solid rgb(var(--background-1));
+    border-radius: 3px;
+    border: 2px solid var(--bckg));
 }
 a, a:hover{
   color:var(--accent);
