@@ -458,13 +458,13 @@ body[dir="ltr"] {
 }
 .sceditor-toolbar {
     padding: 18px!important;
-    background: rgb(var(--background-1))!important;
+    background: var(--background-stema)!important;
     border: 0!important;
     border-bottom: 1px solid var(--accent)!important;
 }
 .sceditor-container iframe, .sceditor-container textarea {
     background: rgb(var(--background-1))!important;
-    border: 5px solid rgb(var(--background-1))!important;
+    border: 10px solid rgb(var(--background-1))!important;
     margin: 0!important;
     outline: 1px solid rgb(var(--background-1))!important;
 }
