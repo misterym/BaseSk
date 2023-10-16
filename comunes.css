@@ -572,17 +572,19 @@ p.pagination > a {
 p.pagination {font-size: 0px;}
 .pagination span > a,.pagination span > strong {padding:2px 12px!important; border:var(--border);}
 p.pagination {
+    min-width: 310px;
     background: rgb(var(--background-1))!important;
-    border: var(--border);
-    border-radius: 3px;
+    border: var(--border-opacity);
     float: none;
     font-size: 0;
-    margin: 0 0px 3px;
-    padding: 8px 10px;
     position: relative;
-    width: 100%;
-    font-weight: 600;
     text-transform: uppercase;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
 }
 form[method="get"], p.right, .permisos {margin: 0px;}
 .permisos strong {
