@@ -265,12 +265,11 @@ ul.linklist li.footer-home {
 textarea {min-height: 150px !important;}
 form#quick_reply {padding-bottom: 30px;}
 .navbar {
-    border: var(--border);
-    border-radius: 5px;
-    background: rgb(var(--background-1));
-    font-size: .7rem;
-    font-weight: 500!important;
-    padding: 8px 12px;
+    border: var(--border-opacity);
+    background: var(--prin-bckg);
+    font-size: var(--fntsize-mini);
+    font-weight: 600!important;
+    padding: 5px 10px;
 }
 .postbody .content {font-size: .75rem;}
 .panel p {
@@ -664,9 +663,8 @@ ul#privmsgs-menu > li > a {
 form[name="privmsg_list"] {
     border: var(--border-opacity);
     margin-top: 5px;
-    background: rgba(var(--background-1),var(--bckg-op));
+    background: var(--prin-bckg);
     padding: 5px;
-    border-radius: 3px;
 }
 select {
     border: var(--border-opacity);
