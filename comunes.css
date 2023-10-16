@@ -27,10 +27,10 @@ blockquote cite {
     color: var(--accent);
 }
 .codebox {
-    background: rgb(var(--background-1))!important;
     border: var(--border-stema)!important;
     padding: 0!important;
     margin: 10px auto;
+    background: var(--background-stema)!important;
 }
 dl.codebox.hidecode > dd:before {
     content: "\f070";
@@ -68,6 +68,7 @@ dl.codebox > dt {
     justify-content: flex-start;
     height: 25px;
     padding: 0 10px;
+    background: var(--background-stema);
     letter-spacing: 2px;
 }
 dl.codebox > dd, dl.codebox code {
@@ -87,8 +88,9 @@ blockquote {
     border: var(--border-stema);
     font-family: var(--fnt-nrm);
     font-size: var(--fntsize-nrm);
-  margin-left:0;
+    margin-left: 0;
     letter-spacing: .5px;
+    background: var(--background-stema);
 }
 blockquote:before {
     content: "\f10d";
