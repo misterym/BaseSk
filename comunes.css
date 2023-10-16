@@ -1,4 +1,7 @@
 .corners-top, .corners-bottom,.tbos-fi-date br{display:none!important;}
+:focus-visible {
+    outline: 1px solid var(--accent);
+}
 h2,.h3 {
     margin: 0;
 }
