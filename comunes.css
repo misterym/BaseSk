@@ -277,29 +277,25 @@ form#quick_reply {padding-bottom: 30px;}
 .panel p {
     padding: 20px;
     margin: 5px 0 1px;
-    border: var(--border);
-    border-radius: 3px;
-    background: rgb(var(--background-2));
     line-height: 18px;
-    font-size: .99em;
+    font-size: var(fntsize-nrm);
 }
 .panel h1 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 50px;
-    background: rgb(var(--background-2));
-    margin: 0;
+    background: var(--background-stema);
+    margin: -5px -5px 0;
     padding: 0 20px;
     position: relative;
     overflow: hidden;
     text-transform: uppercase;
-    border: var(--border);
-    border-radius: 3px;
+    border-bottom: var(--border-opacity);
     letter-spacing: .5px;
-    font-size: .75rem;
-    font-weight: 500;
-    color: var(--color-text);
+    font-size: var(--fntsize-nrm);
+    font-weight: 700;
+    color: var(--accent);
 }
 .panel {
     border: var(--border-opacity);
