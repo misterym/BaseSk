@@ -390,7 +390,7 @@ div#tabs a {
     line-height: 16px;
     float: none;
     text-align: center;
-    color: var(--color);
+    color: var(--color-two);
     font-size: var(--fntsize-mini);
 }
 #tabs a span {
