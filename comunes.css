@@ -210,7 +210,8 @@ dl.codebox.hidecode > dd:before {
     font-size: var(--fntsize-sub);
     position: absolute;
     left: 20px;
-    height: 98%;
+    height: -webkit-fill-available;
+    margin-bottom: 10px;
 }
 dl.codebox > dt:before {
     content: "\f121";
