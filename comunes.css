@@ -208,6 +208,9 @@ dl.codebox.hidecode > dd:before {
     border-right: 1px solid var(--accent);
     padding-right: 15px;
     font-size: var(--fntsize-sub);
+    position: absolute;
+    left: 20px;
+    height: 98%;
 }
 dl.codebox > dt:before {
     content: "\f121";
@@ -223,8 +226,8 @@ dl.codebox.spoiler > dt:before {
     content: "\f308";
 }
 dl.codebox.hidecode > dd {
-    display: flex;
-    gap: 15px;
+    padding-left: 80px;
+    position: relative;
 }
 dl.codebox.hidecode > dt {
     display: none;
